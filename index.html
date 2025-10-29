@@ -7,6 +7,13 @@
   <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="author" content="Mihael Garic">
     <title>Mihael Garic</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style> 
+.drugi{
+  color: blue;
+}
+
+    </style>
 </head>
 <body>
   <h1>Zadaće:</h1>
@@ -18,6 +25,12 @@
   <li>Zadaća</li>
 </ol>
 
+<h2>Nacini dodavanja CSSa:</h2>
+<ul>
+  <li style="color: rgb(218, 67, 67); background-color: rgb(3, 3, 3);">Inline CSS</li>
+  <li class="drugi">Internal CSS</li>
+  <li class="treci">External CSS</li>
+</ul>
 
 
     <!-- naslovi, heading -->
@@ -31,7 +44,7 @@
      <!-- paragraf -->
       <!-- break element
       hr element -->
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><hr>Quaerat nam eligendi, 
+      <p draggable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><hr>Quaerat nam eligendi, 
         mollitia tempora necessitatibus nisi quo quas eos error consequatur esse quibusdam et, 
         quisquam ipsum animi voluptas suscipit sed eveniet?
         At, id nam nisi deserunt placeat est iusto assumenda. 
@@ -65,7 +78,7 @@ itaque accusamus nisi impedit quasi?
 <!-- liste,ul-unorderd list,ol-ordered list,dl-definition list -->
 
 <h3>Voćni desert u caši</h3>
-<h4>Sastojci:</h4>
+<h4 id="naslov">Sastojci:</h4>
 <ul style="list-style-type:square">
   <li>230 g kreme za kremšnite</li>
   <li>500 ml hladnog mlijeka</li>
