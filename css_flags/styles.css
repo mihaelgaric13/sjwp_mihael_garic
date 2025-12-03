@@ -1,0 +1,117 @@
+.plava{
+width: 500px;
+height: 350px;
+background-color: blue;
+position: relative;
+}
+.crvenavertikalna{
+    width: 500px;
+    height: 60px;
+    background-color:whitesmoke;
+    top: 140px;
+position: absolute;
+}
+.crevanahor{
+width: 60px;
+    height: 350px;
+    background-color: whitesmoke;
+    left: 90px;
+position: absolute;
+}
+.belavera{
+width: 500px;
+    height: 40px;
+    background-color: red;
+    top: 150px;
+position: absolute;
+}
+.belahor{
+width: 40px;
+    height: 350px;
+    background-color: red;
+    left: 100px;
+position: absolute;
+}
+.tirkiz{
+width: 500px;
+height: 350px;
+background-color: #00a9ce;
+position: relative;
+}
+.zut{
+    width: 500px;
+    height: 110px;
+    background-color: #fdda25;
+    top: 120px;
+position: absolute;
+}
+.crna{
+width: 0;
+height: 0;
+border-left: 195px solid black;
+border-top: 175px solid transparent;
+border-bottom: 175px  solid transparent ;
+position: absolute;
+}
+.crvena{
+width: 500px;
+height: 350px;
+background-color: red;
+position: relative;
+}
+.bilag{
+   width: 100px;
+height: 350px;
+background-color: whitesmoke;
+position: relative; 
+}
+.bila{
+width: 0;
+height: 0;
+border-left: 80px solid whitesmoke;
+border-top: 35px solid transparent;
+border-bottom: 35px  solid transparent ; 
+position: absolute;
+left: 100px;
+}
+.bila1{
+width: 0;
+height: 0;
+border-left: 80px solid whitesmoke;
+border-top: 35px solid transparent;
+border-bottom: 35px  solid transparent ; 
+position: absolute;
+left: 100px;
+top: 70px;
+}
+.bila2{
+width: 0;
+height: 0;
+border-left: 80px solid whitesmoke;
+border-top: 35px solid transparent;
+border-bottom: 35px  solid transparent ; 
+position: absolute;
+left: 100px;
+top: 140px;
+}
+.bila3{
+width: 0;
+height: 0;
+border-left: 80px solid whitesmoke;
+border-top: 35px solid transparent;
+border-bottom: 35px  solid transparent ; 
+position: absolute;
+left: 100px;
+top: 210px;
+}
+.bila4{
+width: 0;
+height: 0;
+border-left: 80px solid whitesmoke;
+border-top: 35px solid transparent;
+border-bottom: 35px  solid transparent ; 
+position: absolute;
+left: 100px;
+top: 280px;
+}
+
