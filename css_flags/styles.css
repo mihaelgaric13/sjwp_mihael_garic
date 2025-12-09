@@ -114,4 +114,23 @@ position: absolute;
 left: 100px;
 top: 280px;
 }
-
+.cr{
+width: 500px;
+height: 350px;
+background-color: red;
+position: relative;
+}
+.bi{
+    width: 500px;
+    height: 120px;
+    top: 120px;
+background-color: whitesmoke;
+position: absolute;
+}
+.pl{
+    width: 500px;
+    height: 110px;
+    top: 240px;
+background-color: blue;
+    position: absolute;
+}
