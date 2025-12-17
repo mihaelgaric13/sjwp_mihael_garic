@@ -366,6 +366,11 @@ left: 110px;
     top: 10px;
     left: 7px;
 }
+.Tanzanie{
+    width: 500px;
+height: 350px;
+    background: linear-gradient(146deg, #009a3d 0% 35% ,#fce700 35% 40%,black 40% 57%,#fce700 57% 62%,#0064be 62% 100%);
+}
 
 
 

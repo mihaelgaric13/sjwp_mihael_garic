@@ -1,0 +1,12 @@
+.g{
+    height: 400px;
+    width: 300px;
+    background-color: #f1ddf5;
+    position: relative;
+}
+.zk{
+    
+border-radius: 100%;
+background-color: #eac049;
+position: absolute;
+}
