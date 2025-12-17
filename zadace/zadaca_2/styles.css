@@ -1,12 +1,156 @@
+html{
+    font-family: 'inter' sans-serif ; 
+}
+h1{
+    position: relative;
+    left: 30%;
+}
 .g{
     height: 400px;
     width: 300px;
     background-color: #f1ddf5;
     position: relative;
+    border: solid black 5px;
 }
 .zk{
-    
+    width: 70px;
+    height: 70px;
 border-radius: 100%;
 background-color: #eac049;
+position: relative;
+left: 105px;
+top: 80px;
+}
+.pk{
+    width: 70px;
+    height: 40px;
+    border-radius: 180px 180px 0 0;
+    background-color: #65a3c5;
+    position: relative;
+    left: 140px;
+    top: 10px;
+    transform: translateX(-50%);
+}
+.p1{
+    width: 20px;
+    height: 70px;
+    background-color: #65a3c5;
+    position: relative;
+    left: 105px;
+    top: 10px;
+}
+.p2{
+ width: 20px;
+    height: 180px;
+    background-color: #65a3c5;
+    position: absolute;
+    left: 155px;
+    top: 120px;
+}
+.ck{
+    width: 32px;
+    height: 32px;
+border-radius: 100%;
+background-color: black;
 position: absolute;
+left: 124px;
+top: 100px;
+}
+.c1{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 280px;
+    left: 155px;
+}
+.c2{
+     width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 180px;
+    left: 105px;
+}
+.pr1{
+    position: absolute;
+    top: 120px;
+    left: 350px;
+}
+.obrub{
+    width: 500px;
+    height: 300px;
+   border: solid black 5px; 
+}
+.h2{
+    position: absolute;
+    left: 280px;
+    top: 630px;
+}
+.op1{
+    font-size: large;
+    position: absolute;
+    left: 260px;
+    top: 670px;
+}
+.op2{
+    font-size: large;
+    position: absolute;
+    left: 240px;
+    top: 695px;
+}
+.op3{
+     font-size: large;
+    position: absolute;
+    left: 240px;
+    top: 740px;
+}
+.op4{
+    font-size: large;
+    position: absolute;
+    left: 240px;
+    top: 770px; 
+}
+.pr2{
+    width: 7%;
+    height: 15%;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 670px;
+    left: 45px;
+    
+}
+.pr3{
+    width: 510px;
+    height: 310px;
+    position: absolute;
+    top: 605px;
+    left: 560px;
+}
+.f{
+    font-size: large;
+    position: absolute;
+    top: 830px;
+    left: 250px;
+}
+.i{
+    font-size: large;
+    position: absolute;
+    top: 830px;
+    left: 390px;
+}
+.f1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 843px;
+    left: 210px;
+}
+.i1{
+   width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 843px;
+    left: 350px; 
 }
