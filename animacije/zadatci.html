@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatci</title>
+    <style>
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px gold solid;
+    border-top: 7px  solid white;
+    
+     animation-duration: 2s ;
+            animation-name: spin;
+            animation-timing-function:ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;  /* moze i broj ponavljanja,infinite*/
+            animation-direction: normal; /* moze biti i revrse,default je normal*/
+            /* animation-fill-mode: forwards; /* stane na kraju*/ 
+            animation-play-state: running;
+}
+
+@keyframes spin{
+    0%{
+
+    }
+ 100%{
+       transform: rotate(360deg);
+       border-radius: 50%;
+    }
+}
+    </style>
+</head>
+<body>
+    <h1>Zadatci</h1>
+    <div></div>
+</body>
+</html>
