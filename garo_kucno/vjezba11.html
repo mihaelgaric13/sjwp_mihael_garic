@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.h1{
+width: 200px;
+height: 200px;
+background-color: green;
+animation: pretvorba 4s ease infinite alternate;
+margin-top: 500px;
+margin-left: 300px;
+}
+div:hover{
+    animation-play-state: paused;
+}
+@keyframes pretvorba{
+ 0%{
+    scale: 2;
+        transform: rotate(0);
+        border-radius: 0%;
+ }
+ 50%{
+    scale: 2;
+        transform: rotate(0);
+        border-radius: 0%;
+ }
+ 100%{
+    scale: 2;
+        transform: rotate(360deg);
+        border-radius: 50%; 
+ }
+
+}
+    </style>
+</head>
+<body>
+    <h1>Vjezba</h1>
+    <div class="h1"></div>
+</body>
+</html>

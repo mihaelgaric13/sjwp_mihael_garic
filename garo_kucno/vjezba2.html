@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tata{
+            display: flex;
+            align-items: center;
+            height: 98dvh;
+            width: 100dvw;
+        }
+        .element{
+            width: 200px;
+            height: 200px;
+            background-color: #89cff0;
+            border-radius: 20px;
+            padding: 10px;
+            animation: pomak 2s ease-in-out 0s 1 forwards;
+        }
+        @keyframes pomak {
+            from{
+                transform: translateX(-230px);
+            }
+            to{
+                transform: translateX(10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tata">
+        <div class="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit consequatur animi totam quo dolore!
+            </p>
+        </div>
+    </div>
+</body>
+</html>

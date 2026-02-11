@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ background-color: black; }
+        .tata{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            height: 70dvh;
+            column-gap: 20px;
+            padding: 20px;
+        }
+        .stupac{
+            width: 100px;
+            background-color: rgb(70, 70, 70);
+        }
+        #s1{
+            height: 100px; 
+            animation: pali 5s linear 0s 1 normal forwards;
+        }
+        #s2{
+            height: 200px; 
+            animation: pali 4s linear 1s 1 normal forwards;
+        }
+        #s3{
+            height: 300px; 
+            animation: pali 3s linear 2s 1 normal forwards;
+        }
+        #s4{
+            height: 400px; 
+            animation: pali 2s linear 3s 1 normal forwards;
+        }
+        #s5{
+            height: 500px; 
+            animation: pali 1s linear 4s 1 normal forwards;
+        }
+        @keyframes pali {
+            from{
+                background-color: rgb(70, 70, 70);
+            }
+            to{
+                background-color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tata">
+        <div class="stupac" id="s1"></div>
+        <div class="stupac" id="s2"></div>
+        <div class="stupac" id="s3"></div>
+        <div class="stupac" id="s4"></div>
+        <div class="stupac" id="s5"></div>
+    </div>
+</body>
+</html>
