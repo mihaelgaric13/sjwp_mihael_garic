@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tata{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98dvh;
+        }
+        .oblik{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            animation: krug 3s ease-in-out 0s infinite alternate;
+        }
+        @keyframes krug {
+            from{
+                border-radius: 0%;
+            }
+            to{
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tata">
+        <div class="oblik"></div>
+    </div>
+</body>
+</html>

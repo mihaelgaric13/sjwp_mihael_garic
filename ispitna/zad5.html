@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 5</title>
+    <style>
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    gap:10px;
+}
+.dot1{
+    width:20px;
+    height:20px;
+    background:black;
+    border-radius:50%;
+    animation:blink 1s infinite alternate;
+}
+.dot2{
+    width:20px;
+    height:20px;
+    background:black;
+    border-radius:50%;
+    animation:blink 1s infinite alternate;
+}
+.dot3{
+    width:20px;
+    height:20px;
+    background:black;
+    border-radius:50%;
+    animation:blink 1s infinite alternate;
+}
+
+.dot2{
+animation-delay:0.3s;
+}
+.dot3{
+    animation-delay:0.6s;
+}
+@keyframes blink{
+    from{
+        opacity:0.2;
+    }
+    to{
+        opacity:1;
+    }
+}
+    </style>
+</head>
+<body>
+<div class="dot1"></div>
+<div class="dot2"></div>
+<div class="dot3"></div>
+</body>
+</html>

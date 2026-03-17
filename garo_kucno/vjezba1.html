@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: black;}
+        .tata{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98dvh;
+        }
+        .container{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid black;
+        }
+        .krug{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: yellow;
+            box-shadow: 0px 0px 199px 34px rgba(255,355,0,0.7);
+            animation: pulse 1.5s linear 0s infinite alternate;
+        }
+        @keyframes pulse {
+            from{
+                opacity: 0%;
+            }
+            to{
+                opacity: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tata">
+        <div class="container">
+            <div class="krug"></div>
+        </div>
+    </div>
+</body>
+</html>
