@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+
+
+
+        .container1{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container1 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .a1{
+            order: -9;
+        }
+        .b1{
+            order: -6;
+        }
+        .c1{
+            order: -5;
+        }
+        .d1{
+            order: -10;
+        }
+        .e1{
+            order: -7;
+        }
+        .f1{
+            order: -8;
+        }
+
+
+
+
+        .container2{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container2 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .a2{
+            grid-column: span 2;
+        }
+        .b2{
+            grid-row: span 2;
+        }
+
+
+       
+        .container3{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        .container3 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .a3{
+            grid-column: span 2;
+        }
+        .b3{
+            grid-column: span 2;
+        }
+        .d3{
+            grid-column: span 3;
+        }
+        .e3{
+            grid-column: span 4;
+           
+        }
+
+
+
+        .container4{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container4 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .a4{
+            grid-column: span 2;
+            order: -3;
+        }
+        .b4{
+            grid-row: span 2;
+            order: -2;
+        }
+        .e4{
+            order: -1;
+            grid-row: span 3;
+        }
+
+
+        .container5{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 0.5fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        }
+        .container5 div{
+           
+           
+            font-size: 3rem;
+            display: flex;
+            align-items: start;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .header{
+            grid-column: span 4;
+            background-color: gray;
+            color: white;
+        }
+        .sidebar{
+            background-color: rgb(58, 57, 57);
+            color: white;
+        }
+        .content{
+            grid-column: span 3;
+            background-color: rgb(58, 57, 57);
+            color: white;
+        }
+        .sidebar2{
+            background-color: lightgray;
+            grid-column: span 4;
+            color: black;
+        }
+        .footer{
+            background-color: gray;
+            grid-column: span 4;
+            color: white;
+        }
+
+
+        .container6{
+            height: 50vh;
+            width: 200vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container6 div{
+            font-size: 3rem;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .crni{
+            color: white;
+            background-color: rgb(58, 57, 57);
+        }
+       
+        .sivi{
+            background-color: lightgray;
+            color: black;
+        }
+
+
+        .container7{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        .container7 div{
+           
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .a5{
+            grid-column: span 2;
+            background-color: rgb(58, 57, 57);
+        }
+        .b5{
+            grid-column: span 3;
+            background-color: rgb(58, 57, 57);
+        }
+        .c5{
+            background-color: rgb(58, 57, 57);
+        }
+        .d5{
+           grid-column: span 3;
+           background-color: rgb(58, 57, 57);
+           grid-area: 2/2/3/5;
+        }
+        .e5{
+            grid-column: span 5;
+            order: 1;
+            background-color: rgb(58, 57, 57);
+        }
+        .f5{
+            background-color: rgb(125, 210, 238);
+            opacity: 0.4;
+            z-index: 1;
+            grid-area: 2/3/3/6;
+           
+        }
+   
+           
+    </style>
+</head>
+<body>
+    <h1>1.Zadatak</h1>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+    </div>
+    <h1>2.Zadatak</h1>
+    <div class="container1">
+        <div class="a1">A</div>
+        <div class="b1">B</div>
+        <div class="c1">C</div>
+        <div class="d1">D</div>
+        <div class="e1">E</div>
+        <div class="f1">F</div>
+    </div>
+    <h1>3.Zadatak</h1>
+    <div class="container2">
+        <div class="a2">A</div>
+        <div class="b2">B</div>
+        <div class="c2">C</div>
+        <div class="d2">D</div>
+    </div>
+    <h1>4.Zadatak</h1>
+    <div class="container2">
+        <div class="a2">A</div>
+        <div class="b2">B</div>
+        <div class="c2">C</div>
+        <div class="d2">D</div>
+    </div>
+    <h1>5.Zadatak</h1>
+    <div class="container3">
+        <div class="a3">A</div>
+        <div class="b3">B</div>
+        <div class="c3">C</div>
+        <div class="d3">D</div>
+        <div class="e3">E</div>
+    </div>
+    <h1>6.Zadatak</h1>
+    <div class="container4">
+        <div class="a4">A</div>
+        <div class="b4">B</div>
+        <div class="c4">C</div>
+        <div class="d4">D</div>
+        <div class="e4">E</div>
+    </div>
+    <h1>7.Zadatak</h1>
+    <div class="container5">
+        <div class="header">Header</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content<br> More content than we had before so<br> this column is quite tall. </div>
+        <div class="sidebar2">Sidebar 2</div>
+        <div class="footer">Footer</div>
+    </div>
+    <h1>8.Zadatak</h1>
+    <div class="container6">
+        <div class="crni">1</div>
+        <div class="sivi">2</div>
+        <div class="crni">3</div>
+        <div class="sivi">4</div>
+        <div class="crni">5</div>
+        <div class="sivi">6</div>
+        <div class="crni">7</div>
+        <div class="sivi">8</div>
+        <div class="crni">9</div>
+        <div class="sivi">10</div>
+        <div class="crni">11</div>
+        <div class="sivi">12</div>
+    </div>
+    <h1>9.Zadatak</h1>
+    <div class="container7">
+        <div class="a5">A</div>
+        <div class="b5">B</div>
+        <div class="c5">C</div>
+        <div class="d5">D</div>
+        <div class="e5">E</div>
+        <div class="f5">F</div>
+    </div>
+</body>
+</html>
