@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galerija filmova</title>
+    <title>MovieNest</title>
     <style>
     
   *{
@@ -11,21 +11,22 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   body{
-    background-color: #cdd1c4;
+    background-color: rgb(87, 85, 85);
   }
 
 .navbar {
-  background-color: #4d5061;
+  background-color: rgb(37, 37, 37);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 750px;
   border-radius: 10px;
   box-shadow: 0px 6px 27px 1px rgba(0,0,0,0.64);
 }
 .nav-buttons {
   display: flex;
   gap: 20px;
+   margin-left: 200%;
 }
 
 .btn{
@@ -37,7 +38,7 @@
   text-decoration: none;
   border-radius: 10px;
   color: white;
-  background: rgba(255, 255, 255, 0.1);
+  background: red;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow:
@@ -47,13 +48,9 @@
   transition: 0.1s transform;
 }
   .btn:hover{
-    transform: scale(1.1);
-    background: #0ff;
+    transform: scale(1.2);
+    background: rgb(18, 98, 219);
     color: #000;
-    box-shadow: 
-     0 0 2px #0ff,
-     0 0 10px #0ff,
-     0 0 20px #0ff;
     text-shadow: none;
   }
   .btn:active{
@@ -122,13 +119,19 @@
 
   .filmovi{
   color: black;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
-  box-shadow: 0 0 15px #0ff, 0 0 20px rgb(0, 17, 255) inset;
-  background-color: #0ff;
-  transform: scale(1.2);
+  box-shadow: 0 0 20px rgb(221, 231, 73) inset;
+  background-color: rgb(187, 175, 5);
+  transform: scale(1.3);
   }
+   .logo {
+    position: absolute; 
+    top: 18px;
+    left: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; 
+}
     </style>
-    
 </header>
 </head>
 <body>
@@ -139,19 +142,19 @@
     <a href="index3.html" class="btn dokumentarci">Dokumentarci</a>
   </div>
 </nav>
- <h2>Filmovi</h2>
+<div class="logo">MovieNest</div>
 <div class="container">
 <div class="film">
   <a href="https://www.imdb.com/title/tt4154796/" target="_blank" class="slika">
-    <img src="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Endgame" width="300px" height="400px" alt="Avengers: Endgame">
+    <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/91/Endgame_Poster_2.jpg/revision/latest?cb=20190314215527" width="300px" height="400px" alt="Avengers: Endgame">
     <div class="tekst">Avengers: Endgame</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt1630029/" target="_blank" class="slika">
-    <img src="https://www.imdb.com/title/tt1630029/" width="300px" height="400px" alt="Avatar">
-    <div class="tekst">Avatar</div>
+    <img src="https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_.jpg" width="300px" height="400px" alt="Avatar">
+    <div class="tekst">Avatar: The Way of Water</div>
   </a>
 </div>
 
@@ -164,119 +167,119 @@
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt1375666/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" width="300px" height="400px" alt="Inception">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7g2MW_GYbDXhIxnKXFyKnRCZv_yDL7lg1GQ&s" width="300px" height="400px" alt="Inception">
     <div class="tekst">Inception</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0133093/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg" width="300px" height="400px" alt="The Matrix">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSjSWOCaw5dnDL2GT1zFd9RMCgUGw5Q2Cfg&s" width="300px" height="400px" alt="The Matrix">
     <div class="tekst">The Matrix</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0111161/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/8IB2e4r4oVhHnANbnm7O3Tj6tF8.jpg" width="300px" height="400px" alt="Shawshank Redemption">
-    <div class="tekst">Shawshank Redemption</div>
+    <img src="https://m.media-amazon.com/images/I/717W9DCnyzL._AC_UF894,1000_QL80_.jpg" width="300px" height="400px" alt="Shawshank Redemption">
+    <div class="tekst">The Shawshank Redemption</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0109830/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/6yoghtyTpznpBik8EngEmJskVUO.jpg" width="300px" height="400px" alt="Forrest Gump">
+    <img src="https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/forrestgump_2019update_en_800x1200.jpg?itok=wqyuMS2H" width="300px" height="400px" alt="Forrest Gump">
     <div class="tekst">Forrest Gump</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0120737/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/kve20tXwUZpu4GUX8l6X7Z4jmL6.jpg" width="300px" height="400px" alt="Lord of the Rings">
-    <div class="tekst">Lord of the Rings</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSan74POPumrKJHph7lG-sZoenBz2YaEMkBpA&s" width="300px" height="400px" alt="Lord of the Rings">
+    <div class="tekst">The Lord of the Rings: The Fellowship of the Ring</div>
   </a>
 </div>
 
 <div class="film">
-  <a href="https://www.imdb.com/title/tt0816692/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/original/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg" width="300px" height="400px" alt="Interstellar">
-    <div class="tekst">Interstellar</div>
+  <a href="https://www.imdb.com/title/tt15940132/" target="_blank" class="slika">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/War_Machine_poster.jpeg/250px-War_Machine_poster.jpeg" width="300px" height="400px" alt="War Machine">
+    <div class="tekst">War Machine</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0848228/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/ts996lKsxvjkO2yiYG0ht4qAicO.jpg" width="300px" height="400px" alt="The Avengers">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/The_Avengers_%282012_film%29_poster.jpg/250px-The_Avengers_%282012_film%29_poster.jpg" width="300px" height="400px" alt="The Avengers">
     <div class="tekst">The Avengers</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt4154756/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/uluhlXubGu1VxU63X9VHCLWDAYP.jpg" width="300px" height="400px" alt="Infinity War">
-    <div class="tekst">Infinity War</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVVKXRFFc9BNtpnBRWifO2r1-wzFwKfNIGsg&s" width="300px" height="400px" alt="Infinity War">
+    <div class="tekst">Avengers: Infinity War</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt7286456/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg" width="300px" height="400px" alt="Joker">
+    <img src="https://i.ebayimg.com/images/g/NTYAAOSwcYpjvs6u/s-l400.jpg" width="300px" height="400px" alt="Joker">
     <div class="tekst">Joker</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0120815/" target="_blank" class="slika">
-    <img src="https://m.media-amazon.com/images/I/51oUqGb18cL.jpg" width="300px" height="400px" alt="Saving Private Ryan">
+    <img src="https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="300px" height="400px" alt="Saving Private Ryan">
     <div class="tekst">Saving Private Ryan</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0167260/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg" width="300px" height="400px" alt="Return of the King">
-    <div class="tekst">Return of the King</div>
+    <img src="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="300px" height="400px" alt="Return of the King">
+    <div class="tekst">The Lord of the Rings: The Return of the King</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt1345836/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" width="300px" height="400px" alt="Dark Knight Rises">
+    <img src="https://upload.wikimedia.org/wikipedia/hr/8/8a/The_Dark_Knight_Rises.jpg" width="300px" height="400px" alt="Dark Knight Rises">
     <div class="tekst">Dark Knight Rises</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0110912/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/aOIuZAjPaRIE6CMzbazvcHuHXDc.jpg" width="300px" height="400px" alt="Pulp Fiction">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_GOBlDxn64BMBNkkMLjLOGFuYpTFNrAR8w&s" width="300px" height="400px" alt="Pulp Fiction">
     <div class="tekst">Pulp Fiction</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0137523/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg" width="300px" height="400px" alt="Fight Club">
+    <img src="https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg" width="300px" height="400px" alt="Fight Club">
     <div class="tekst">Fight Club</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0102926/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg" width="300px" height="400px" alt="Silence of the Lambs">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXD5EzCfvxKSqbAfp8BlsWjDQumsX0S9rYVg&s" width="300px" height="400px" alt="Silence of the Lambs">
     <div class="tekst">Silence of the Lambs</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt0172495/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" width="300px" height="400px" alt="Gladiator">
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png" width="300px" height="400px" alt="Gladiator">
     <div class="tekst">Gladiator</div>
   </a>
 </div>
 
 <div class="film">
   <a href="https://www.imdb.com/title/tt1853728/" target="_blank" class="slika">
-    <img src="https://image.tmdb.org/t/p/w300/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" width="300px" height="400px" alt="Django Unchained">
+    <img src="https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg" width="300px" height="400px" alt="Django Unchained">
     <div class="tekst">Django Unchained</div>
   </a>
 </div>
