@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background: #2c8c99;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+.container {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+
+.orange { background: orange; }
+.yellow { background: #d4f000; }
+.blue { background: #4f83bd; }
+.gray { background: #ccc; }
+
+.box {
+  padding: 30px;
+  text-align: center;
+}
+
+
+.container {
+  grid-template-columns: 1fr;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .yellow {
+    grid-column: span 2;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .orange,
+  .yellow {
+    grid-column: 1 / -1;
+  }
+
+  .blue {
+    grid-column: span 1;
+  }
+
+  /* 🔥 svi footeri idu u novi red */
+  .gray {
+    grid-column: span 1;
+  }
+
+  .gray:nth-child(6) {
+    grid-column: 1 / 2;
+  }
+}
+    </style>
+</head>
+<body>
+    
+<header>
+  <h1>MEDIA QUERIES</h1>
+</header>
+
+<main class="container">
+  <div class="box orange">Header</div>
+  <div class="box yellow">Main</div>
+  <div class="box blue">Content 1</div>
+  <div class="box blue">Content 2</div>
+  <div class="box blue">Content 3</div>
+  <div class="box gray">Footer 1</div>
+  <div class="box gray">Footer 2</div>
+  <div class="box gray">Footer 3</div>
+  <div class="box gray">Footer 4</div>
+</main>
+</body>
+</html>
