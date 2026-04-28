@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Layout</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ddd;
+}
+
+/* KONTEJNER FULL WIDTH */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* BOJE */
+.orange {
+  background: orange;
+  height: 50px;
+}
+
+.yellow {
+  background: #d4ff00;
+  height: 120px;
+}
+
+.blue {
+  background: #4f83c2;
+  height: 70px;
+}
+
+.gray {
+  background: #ccc;
+  height: 60px;
+}
+
+.box {
+  width: 100%;
+}
+
+/* GRUPE */
+.blue-group,
+.gray-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .gray-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .gray-group .box {
+    width: calc(50% - 5px);
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .blue-group {
+    flex-direction: row;
+  }
+
+  .blue-group .box {
+    width: calc(33.33% - 7px);
+  }
+
+  .gray-group .box {
+    width: calc(25% - 8px);
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="box orange"></div>
+
+  <div class="box yellow"></div>
+
+  <div class="blue-group">
+    <div class="box blue"></div>
+    <div class="box blue"></div>
+    <div class="box blue"></div>
+  </div>
+
+  <div class="gray-group">
+    <div class="box gray"></div>
+    <div class="box gray"></div>
+    <div class="box gray"></div>
+    <div class="box gray"></div>
+  </div>
+
+</div>
+
+</body>
+</html>

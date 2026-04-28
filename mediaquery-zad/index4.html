@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+
+.item {
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+.item1 { background: blue; }
+.item2 { background: green; }
+.item3 { background: yellow; color: black; }
+.item4 { background: purple; }
+.item5 { background: red; }
+.item6 { background: grey; }
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobitel */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</head>
+<body>
+    <body>
+    <div class="grid-container">
+    <div class="item item1">Korisnici</div>
+    <div class="item item2">Prodaja</div>
+    <div class="item item3">Poruke</div>
+    <div class="item item4">Statistika</div>
+    <div class="item item5">zadaci</div>
+    <div class="item item6">postavke</div>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+
+.item {
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+.item1 { background: black; }
+.item2 { background: blue; }
+.item3 { background: yellow; color: black; }
+.item4 { background: green; }
+.item5 { background: red; }
+.item6 { background: purple; }
+.item7 {background: pink; }
+.item8 { background: lightblue}
+.item9 {background: lightgoldenrodyellow; }
+.item10 {background: silver; }
+.item11 {background: gold; }
+.item12 {background: darkviolet; }
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobitel */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+    <div class="item item1"></div>
+    <div class="item item2"></div>
+    <div class="item item3"></div>
+    <div class="item item4"></div>
+    <div class="item item5"></div>
+    <div class="item item6"></div>
+    <div class="item item7"></div>
+    <div class="item item8"></div>
+    <div class="item item9"></div>
+    <div class="item item10"></div>
+    <div class="item item11"></div>
+    <div class="item item12"></div>
+</div>
+</body>
+</html>
