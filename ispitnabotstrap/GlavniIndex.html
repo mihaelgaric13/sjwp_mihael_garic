@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moja Osobna Web Stranica</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url("https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_STAGE_KTM-motocross-2-stroke-125-sx-header-desktop_%23SALL_%23AEPI_%23V1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#about img {
+    max-width: 300px;
+}
+
+
+.card {
+    transition: 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.contact-section {
+    background-color: #e9ecef;
+}
+
+
+footer {
+    font-size: 18px;
+}
+    </style>
+    
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Moja Web Stranica</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">O meni</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Hobiji</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tasks">Zadaće</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="hero-section text-center text-white d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Dobrodošli na moju osobnu stranicu</h1>
+            <p class="lead">
+                Učenik, gamer i ljubitelj tehnologije
+            </p>
+
+            <a href="#about" class="btn btn-primary btn-lg mt-3">
+                Saznaj više
+            </a>
+        </div>
+    </section>
+
+    
+    <section id="about" class="container py-5">
+        <div class="row align-items-center">
+
+            <div class="col-md-4 text-center">
+                <img src="https://hns.family/files/images_comet/Person/427153_baf91a13-99ab-4f34-a91a-bee0aa9f6f9e.png"
+                     class="img-fluid rounded-circle shadow"
+                     alt="Profilna slika">
+            </div>
+
+            <div class="col-md-8">
+                <h2>O meni</h2>
+
+                <h4>Mihael Garić</h4>
+
+                <p>
+                    Ja sam učenik informatike i zanimaju me web tehnologije,
+                    programiranje i dizajn web stranica. U slobodno vrijeme
+                    volim igrati igrice, gledati serije i učiti nove stvari
+                    vezane uz razvoj aplikacija.
+                </p>
+
+                <p>
+                    Moj omiljeni hobi je gaming. Najviše vremena provodim igrajući
+                    multiplayer igrice s prijateljima. Osim toga, pratim
+                    tehnološke novosti i često istražujem nove alate za web razvoj.
+                    Posebno me zanimaju HTML, CSS, Bootstrap i JavaScript jer
+                    omogućuju izradu modernih i responzivnih web stranica.
+                </p>
+
+                <p>
+                    Također volim gledati serije poput Breaking Bad, Stranger Things
+                    i Game of Thrones. Smatram da su kvalitetna priča i dobra gluma
+                    vrlo važni za stvaranje zanimljivog sadržaja.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-5">Moji hobiji i vještine</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <h3>Web Development</h3>
+                            <p>
+                                 Zanimaju me izrada i dizajn web stranica pomoću HTML-a,
+                CSS-a i Bootstrapa. Volim učiti nove tehnike uređivanja
+                stranica i izrađivati moderne i responzivne web projekte.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <h3>Gaming</h3>
+                            <p>
+                                U slobodno vrijeme volim igrati igrice poput Counter-Strike:
+                Global Offensive, Among Us i Brawl Stars. Najviše volim
+                multiplayer igrice zbog natjecanja, zabave i igranja s
+                prijateljima tijekom slobodnog vremena.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <h3>Reselling</h3>
+                            <p>
+                                U slobodno vrijeme bavim se resellingom, odnosno preprodajom
+                proizvoda poput tenisica, odjeće i tehnološke opreme.
+                Zanimljivo mi je pratiti tržište, tražiti dobre ponude i
+                ostvarivati zaradu kroz kupnju i preprodaju popularnih proizvoda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="tasks" class="container py-5">
+
+        <h2 class="text-center mb-4">Moje dosadašnje zadaće</h2>
+
+        <div class="list-group">
+
+            <a href="\zadace\zadaca_1\zadaca1.html"
+               target="_blank"
+               class="list-group-item list-group-item-action">
+               Zadaća 1 - HTML Osnove
+            </a>
+
+            <a href="\zadace\zadaca_2\index.html"
+               target="_blank"
+               class="list-group-item list-group-item-action">
+               Zadaća 2 - CSS Stiliziranje
+            </a>
+
+            <a href="\zadace\zadaca_3\index1.html"
+               target="_blank"
+               class="list-group-item list-group-item-action">
+              Zadaća 3 - CSS Grid
+
+            </a>
+
+        </div>
+
+    </section>
+
+    
+    <section id="contact" class="contact-section py-5">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="card shadow p-4">
+
+                        <h2 class="text-center mb-4">
+                            Kontaktirajte Nas
+                        </h2>
+
+                        <form method="GET">
+
+                            <div class="row">
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Ime</label>
+
+                                    <input type="text"
+                                           class="form-control"
+                                           placeholder="Unesite ime">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Email</label>
+
+                                    <input type="email"
+                                           class="form-control"
+                                           placeholder="Unesite email">
+                                </div>
+
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Datum</label>
+
+                                <input type="date" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Poruka</label>
+
+                                <textarea class="form-control"
+                                          rows="5"
+                                          placeholder="Unesite poruku"></textarea>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    Pošalji Poruku
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+            © 2026 Moja Osobna Web Stranica
+        </p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
